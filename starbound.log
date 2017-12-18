@@ -1,140 +1,242 @@
-[10:51:26.311] [Info] Root: Preparing Root...
-[10:51:26.313] [Info] Root: Done preparing Root.
-[10:51:26.313] [Info] Client Version 1.3.3 (linux x86_64) Source ID: c21069b204d626bfe673a047a2100d2fcd0766d4 Protocol: 743
-[10:51:26.314] [Info] Root: Scanning for asset sources in directory '../assets/'
-[10:51:26.503] [Info] Root: Scanning for asset sources in directory '../mods/'
-[10:51:26.580] [Warn] Root: Unrecognized file in asset directory 'mods_go_here', skipping
-[10:51:26.580] [Info] Root: Detected asset source named 'base' at '../assets/packed.pak'
-[10:51:26.581] [Info] Root: Detected asset source named 'SC-WenQ' at '../mods/font.pak'
-[10:51:26.581] [Info] Root: Detected unnamed asset source at '../assets/user'
-[10:51:26.581] [Info] Loading assets from: '../assets/packed.pak'
-[10:51:26.771] [Info] Loading assets from: '../mods/font.pak'
-[10:51:26.771] [Info] Loading assets from: '../assets/user'
-[10:51:27.277] [Info] Assets digest is 09b8e496b121a412dfa873cd116424aa825264f2bf33ce1f2e58ad0fd329c358
-[10:51:27.277] [Info] Root: Loaded Assets in 0.964261 seconds
-[10:51:27.293] [Info] Application: Initializing SDL Video
-[10:51:28.011] [Info] Application: Initializing SDL Joystick
-[10:51:28.018] [Info] Application: Initializing SDL Sound
-[10:51:28.026] [Info] Initialized Steam services
-[10:51:28.026] [Info] Application: Creating SDL Window
-[10:51:28.040] [Info] Application: Enabling VSync with late swap tearing
-[10:51:28.069] [Info] Application: Opened default audio device with 44.1khz / 16 bit stereo audio, 2048 sample size buffer
-[10:51:28.074] [Info] OpenGL version: '4.5.0 NVIDIA 384.90' vendor: 'NVIDIA Corporation' renderer: 'GeForce GTX 1070/PCIe/SSE2' shader: '4.50 NVIDIA'
-[10:51:28.088] [Info] Application: initialization...
-[10:51:28.089] [Info] Root: Loaded Configuration in 0.000285847 seconds
-[10:51:28.497] [Info] Application: renderer initialization...
-[10:51:28.499] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 128
-[10:51:28.546] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 64
-[10:51:28.548] [Info] Root: Loaded ImageMetadataDatabase in 1.256e-06 seconds
-[10:51:28.614] [Info] Application: main update loop...
-[10:51:28.631] [Info] Loading mods from user generated content with id '807695810' from directory '/usr/local/games/steamapps/steamapps/workshop/content/211820/807695810'
-[10:51:28.632] [Info] Reloading to include all user generated content
-[10:51:28.632] [Info] Root: Reloading from disk
-[10:51:28.632] [Info] Root: Writing runtime configuration to '../storage/starbound.config'
-[10:51:28.655] [Info] Root: Loaded Configuration in 0.000823094 seconds
-[10:51:28.655] [Info] Root: Scanning for asset sources in directory '../assets/'
-[10:51:28.755] [Info] Root: Scanning for asset sources in directory '../mods/'
-[10:51:28.755] [Warn] Root: Unrecognized file in asset directory 'mods_go_here', skipping
-[10:51:28.755] [Info] Root: Scanning for asset sources in directory '/usr/local/games/steamapps/steamapps/workshop/content/211820/807695810'
-[10:51:28.782] [Info] Root: Detected asset source named 'base' at '../assets/packed.pak'
-[10:51:28.782] [Info] Root: Detected asset source named 'SChinese' at '/usr/local/games/steamapps/steamapps/workshop/content/211820/807695810/contents.pak'
-[10:51:28.782] [Info] Root: Detected asset source named 'SC-WenQ' at '../mods/font.pak'
-[10:51:28.782] [Info] Root: Detected unnamed asset source at '../assets/user'
-[10:51:28.782] [Info] Loading assets from: '../assets/packed.pak'
-[10:51:28.939] [Info] Loading assets from: '/usr/local/games/steamapps/steamapps/workshop/content/211820/807695810/contents.pak'
-[10:51:28.966] [Info] Loading assets from: '../mods/font.pak'
-[10:51:28.966] [Info] Loading assets from: '../assets/user'
-[10:51:29.564] [Info] Assets digest is 9f04f5b7da453003c45a26ebf9c62f98b157d02d260b87c4fa2053df60f66d6d
-[10:51:29.565] [Info] Root: Loaded Assets in 0.909339 seconds
-[10:51:29.579] [Info] Root: Loaded ImageMetadataDatabase in 7.74e-07 seconds
-[10:51:29.605] [Info] Root: Loaded NameGenerator in 0.0397598 seconds
-[10:51:29.856] [Info] Root: Loaded PlantDatabase in 0.251085 seconds
-[10:51:30.185] [Info] Root: Loaded ProjectileDatabase in 0.328553 seconds
-[10:51:30.287] [Info] Root: Loaded ObjectDatabase in 0.721371 seconds
-[10:51:30.358] [Info] Root: Loaded NpcDatabase in 0.0713848 seconds
-[10:51:30.367] [Info] Root: Loaded StagehandDatabase in 0.00832283 seconds
-[10:51:30.368] [Info] Root: Loaded VehicleDatabase in 0.00146077 seconds
-[10:51:30.370] [Info] Root: Loaded PlayerFactory in 0.00164419 seconds
-[10:51:30.390] [Info] Root: Loaded MonsterDatabase in 0.205075 seconds
-[10:51:30.399] [Info] Root: Loaded VersioningDatabase in 0.00872088 seconds
-[10:51:30.399] [Info] Root: Loaded EntityFactory in 0.0292538 seconds
-[10:51:30.426] [Info] Root: Loaded ParticleDatabase in 0.026954 seconds
-[10:51:30.656] [Info] Root: Loaded MaterialDatabase in 0.25714 seconds
-[10:51:30.676] [Info] Root: Loaded TerrainDatabase in 0.0195016 seconds
-[10:51:30.987] [Info] Root: Loaded BiomeDatabase in 0.310923 seconds
-[10:51:30.988] [Info] Root: Loaded LiquidsDatabase in 0.000948504 seconds
-[10:51:30.994] [Info] Root: Loaded StatusEffectDatabase in 0.00657942 seconds
-[10:51:31.261] [Info] Root: Loaded DamageDatabase in 0.266315 seconds
-[10:51:31.268] [Info] Root: Loaded EffectSourceDatabase in 0.00749497 seconds
-[10:51:31.270] [Info] Root: Loaded FunctionDatabase in 0.00162647 seconds
-[10:51:31.414] [Info] Root: Loaded TreasureDatabase in 0.143912 seconds
-[10:51:32.190] [Info] Root: Loaded DungeonDefinitions in 0.775937 seconds
-[10:51:32.190] [Info] Root: Loaded TilesetDatabase in 9.649e-06 seconds
-[10:51:32.207] [Info] Root: Loaded StatisticsDatabase in 0.0165766 seconds
-[10:51:32.213] [Info] Root: Loaded EmoteProcessor in 0.00632452 seconds
-[10:51:32.249] [Info] Root: Loaded SpeciesDatabase in 0.0354358 seconds
-[10:51:32.321] [Info] Root: Loaded QuestTemplateDatabase in 0.072237 seconds
-[10:51:32.327] [Info] Root: Loaded AiDatabase in 0.00589648 seconds
-[10:51:32.327] [Info] Root: Loaded TechDatabase in 0.000472917 seconds
-[10:51:32.333] [Info] Root: Loaded CodexDatabase in 0.00593104 seconds
-[10:51:32.507] [Info] Root: Loaded BehaviorDatabase in 0.173742 seconds
-[10:51:32.585] [Info] Root: Loaded DanceDatabase in 0.0775611 seconds
-[10:51:32.598] [Info] Root: Loaded SpawnTypeDatabase in 0.0136623 seconds
-[10:51:32.602] [Info] Root: Loaded RadioMessageDatabase in 0.00373092 seconds
-[10:51:33.744] [Info] Root: Loaded ItemDatabase in 3.35388 seconds
-[10:51:33.803] [Info] Root: Loaded CollectionDatabase in 1.20079 seconds
-[10:51:34.277] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 256
-[10:51:44.207] [Info] UniverseServer: Acquiring universe lock file
-[10:51:44.208] [Info] UniverseServer: Loading settings
-[10:51:44.209] [Info] UniverseServer: Starting UniverseServer with UUID: d167ea4a6483c7949f9cfe18dae3d900
-[10:51:44.220] [Info] UniverseServer: Logged in player 'Jian' locally
-[10:51:44.220] [Info] UniverseServer: Logged in account '<anonymous>' as player 'Jian' from address local
-[10:51:44.220] [Info] UniverseServer: Loading system world (-94098953, -456004532, -141358315) from disk storage
-[10:51:44.235] [Info] UniverseClient: Joined server as client 1
-[10:51:44.257] [Info] UniverseServer: Reviving player at CelestialWorld:-94098953:-456004532:-141358315:9
-[10:51:44.258] [Info] UniverseServer: Client 'Jian' <1> (local) connected
-[10:51:44.310] [Info] UniverseServer: Loading celestial world -94098953:-456004532:-141358315:9
-[10:51:44.402] [Info] Protected dungeonIds for world set to (65524)
-[10:51:44.518] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 64
-[10:51:44.518] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 128
-[10:51:44.535] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 256
-[10:51:44.535] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 256
-[10:51:44.536] [Info] Setting steam rich presence connection as steam id 76561198360016877
-[10:51:44.552] [Error] Cannot set Steam achievement kill10poptops
-[10:51:44.632] [Info] UniverseServer: Warping player 1 to CelestialWorld:-94098953:-456004532:-141358315:9=2732.74.959.038
-[10:52:36.373] [Info] Root: Writing runtime configuration to '../storage/starbound.config'
-[10:52:46.380] [Info] Root: Writing runtime configuration to '../storage/starbound.config'
-[10:53:18.436] [Info] UniverseServer: Loading client ship world ClientShipWorld:ae8399bb5321b35be0303771dcba4bde
-[10:53:18.505] [Info] Protected dungeonIds for world set to (65524)
-[10:53:18.836] [Info] UniverseServer: Warping player 1 to ClientShipWorld:ae8399bb5321b35be0303771dcba4bde
-[10:53:18.842] [Info] UniverseServer: Stopping idle world CelestialWorld:-94098953:-456004532:-141358315:9
-[10:53:18.849] [Info] Client received world stop packet, leaving: Removed
-[10:53:51.050] [Info] UniverseServer: Loading celestial world -94098953:-456004532:-141358315:9
-[10:53:51.140] [Info] Protected dungeonIds for world set to (65524)
-[10:53:51.251] [Info] UniverseServer: Warping player 1 to CelestialWorld:-94098953:-456004532:-141358315:9
-[10:53:51.254] [Info] UniverseServer: Stopping idle world ClientShipWorld:ae8399bb5321b35be0303771dcba4bde
-[10:53:51.267] [Info] Client received world stop packet, leaving: Removed
-[11:07:06.397] [Error] Could not instantiate item '[generatedgun, 1, {"level":5.4914,"definition":"uncommonrocketlauncher"}]'. (ItemException) No such item 'generatedgun'
-[11:07:08.158] [Error] Could not instantiate item '[generatedgun, 1, {"level":5.4914,"definition":"uncommonrocketlauncher"}]'. (ItemException) No such item 'generatedgun'
-[11:13:17.851] [Info] UniverseServer: Loading client ship world ClientShipWorld:ae8399bb5321b35be0303771dcba4bde
-[11:13:17.900] [Info] Protected dungeonIds for world set to (65524)
-[11:13:18.088] [Info] UniverseServer: Warping player 1 to ClientShipWorld:ae8399bb5321b35be0303771dcba4bde
-[11:13:18.099] [Info] UniverseServer: Stopping idle world CelestialWorld:-94098953:-456004532:-141358315:9
-[11:13:18.101] [Info] Client received world stop packet, leaving: Removed
-[11:24:29.194] [Info] UniverseServer: Loading celestial world -94098953:-456004532:-141358315:9
-[11:24:29.292] [Info] Protected dungeonIds for world set to (65524)
-[11:24:29.395] [Info] UniverseServer: Warping player 1 to CelestialWorld:-94098953:-456004532:-141358315:9
-[11:24:29.399] [Info] UniverseServer: Stopping idle world ClientShipWorld:ae8399bb5321b35be0303771dcba4bde
-[11:24:29.400] [Info] Client received world stop packet, leaving: Removed
-[11:31:34.740] [Info] UniverseClient: Client disconnecting...
-[11:31:34.780] [Info] UniverseServer: Client 'Jian' <1> (local) disconnected for reason: 
-[11:31:34.780] [Info] Client received world stop packet, leaving: Removed
-[11:31:34.780] [Info] UniverseServer: Stopping idle world CelestialWorld:-94098953:-456004532:-141358315:9
-[11:31:35.359] [Info] UniverseServer: Stopping UniverseServer
-[11:31:35.362] [Info] Clearing steam rich presence connection
-[11:31:37.377] [Info] Application: quit requested
-[11:31:37.377] [Info] Application: quitting...
-[11:31:37.377] [Info] Application: shutdown...
-[11:31:37.485] [Info] Root: Shutting down Root
-[11:31:37.579] [Info] Application: Destroying SDL Window
-[11:31:38.018] [Info] Application: stopped gracefully
+[12:24:47.425] [Info] Root: Preparing Root...
+[12:24:47.426] [Info] Root: Done preparing Root.
+[12:24:47.426] [Info] Client Version 1.3.3 (linux x86_64) Source ID: c21069b204d626bfe673a047a2100d2fcd0766d4 Protocol: 743
+[12:24:47.427] [Info] Root: Scanning for asset sources in directory '../assets/'
+[12:24:47.588] [Info] Root: Scanning for asset sources in directory '../mods/'
+[12:24:47.598] [Warn] Root: Unrecognized file in asset directory 'mods_go_here', skipping
+[12:24:47.598] [Info] Root: Detected asset source named 'base' at '../assets/packed.pak'
+[12:24:47.598] [Info] Root: Detected asset source named 'SC-WenQ' at '../mods/font.pak'
+[12:24:47.598] [Info] Root: Detected unnamed asset source at '../assets/user'
+[12:24:47.598] [Info] Loading assets from: '../assets/packed.pak'
+[12:24:47.756] [Info] Loading assets from: '../mods/font.pak'
+[12:24:47.756] [Info] Loading assets from: '../assets/user'
+[12:24:48.274] [Info] Assets digest is 09b8e496b121a412dfa873cd116424aa825264f2bf33ce1f2e58ad0fd329c358
+[12:24:48.274] [Info] Root: Loaded Assets in 0.847331 seconds
+[12:24:48.292] [Info] Application: Initializing SDL Video
+[12:24:48.994] [Info] Application: Initializing SDL Joystick
+[12:24:48.999] [Info] Application: Initializing SDL Sound
+[12:24:49.007] [Info] Initialized Steam services
+[12:24:49.007] [Info] Application: Creating SDL Window
+[12:24:49.025] [Info] Application: Enabling VSync with late swap tearing
+[12:24:49.032] [Info] Application: Opened default audio device with 44.1khz / 16 bit stereo audio, 2048 sample size buffer
+[12:24:49.036] [Info] OpenGL version: '4.5.0 NVIDIA 384.90' vendor: 'NVIDIA Corporation' renderer: 'GeForce GTX 1070/PCIe/SSE2' shader: '4.50 NVIDIA'
+[12:24:49.057] [Info] Application: initialization...
+[12:24:49.081] [Info] Root: Loaded Configuration in 0.0153076 seconds
+[12:24:49.502] [Info] Application: renderer initialization...
+[12:24:49.504] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 128
+[12:24:49.564] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 64
+[12:24:49.582] [Info] Root: Loaded ImageMetadataDatabase in 8.06e-07 seconds
+[12:24:49.649] [Info] Application: main update loop...
+[12:24:49.653] [Info] Loading mods from user generated content with id '807695810' from directory '/usr/local/games/steamapps/steamapps/workshop/content/211820/807695810'
+[12:24:49.654] [Info] Reloading to include all user generated content
+[12:24:49.654] [Info] Root: Reloading from disk
+[12:24:49.654] [Info] Root: Writing runtime configuration to '../storage/starbound.config'
+[12:24:49.675] [Info] Root: Loaded Configuration in 0.000640726 seconds
+[12:24:49.675] [Info] Root: Scanning for asset sources in directory '../assets/'
+[12:24:49.774] [Info] Root: Scanning for asset sources in directory '../mods/'
+[12:24:49.774] [Warn] Root: Unrecognized file in asset directory 'mods_go_here', skipping
+[12:24:49.775] [Info] Root: Scanning for asset sources in directory '/usr/local/games/steamapps/steamapps/workshop/content/211820/807695810'
+[12:24:49.808] [Info] Root: Detected asset source named 'base' at '../assets/packed.pak'
+[12:24:49.808] [Info] Root: Detected asset source named 'SChinese' at '/usr/local/games/steamapps/steamapps/workshop/content/211820/807695810/contents.pak'
+[12:24:49.808] [Info] Root: Detected asset source named 'SC-WenQ' at '../mods/font.pak'
+[12:24:49.808] [Info] Root: Detected unnamed asset source at '../assets/user'
+[12:24:49.808] [Info] Loading assets from: '../assets/packed.pak'
+[12:24:49.964] [Info] Loading assets from: '/usr/local/games/steamapps/steamapps/workshop/content/211820/807695810/contents.pak'
+[12:24:49.992] [Info] Loading assets from: '../mods/font.pak'
+[12:24:49.992] [Info] Loading assets from: '../assets/user'
+[12:24:50.580] [Info] Assets digest is 9f04f5b7da453003c45a26ebf9c62f98b157d02d260b87c4fa2053df60f66d6d
+[12:24:50.580] [Info] Root: Loaded Assets in 0.904421 seconds
+[12:24:50.594] [Info] Root: Loaded ImageMetadataDatabase in 8.19e-07 seconds
+[12:24:50.700] [Info] Root: Loaded NameGenerator in 0.119406 seconds
+[12:24:51.159] [Info] Root: Loaded PlantDatabase in 0.459057 seconds
+[12:24:51.288] [Info] Root: Loaded ObjectDatabase in 0.707236 seconds
+[12:24:51.345] [Info] Root: Loaded ProjectileDatabase in 0.18585 seconds
+[12:24:51.406] [Info] Root: Loaded MonsterDatabase in 0.117973 seconds
+[12:24:51.428] [Info] Root: Loaded StagehandDatabase in 0.0224084 seconds
+[12:24:51.430] [Info] Root: Loaded VehicleDatabase in 0.00193847 seconds
+[12:24:51.432] [Info] Root: Loaded PlayerFactory in 0.00169076 seconds
+[12:24:51.440] [Info] Root: Loaded NpcDatabase in 0.0946592 seconds
+[12:24:51.451] [Info] Root: Loaded VersioningDatabase in 0.0112058 seconds
+[12:24:51.451] [Info] Root: Loaded EntityFactory in 0.0191686 seconds
+[12:24:51.481] [Info] Root: Loaded ParticleDatabase in 0.0302121 seconds
+[12:24:51.744] [Info] Root: Loaded MaterialDatabase in 0.29258 seconds
+[12:24:51.765] [Info] Root: Loaded TerrainDatabase in 0.021167 seconds
+[12:24:51.886] [Info] Root: Loaded BiomeDatabase in 0.120845 seconds
+[12:24:51.888] [Info] Root: Loaded LiquidsDatabase in 0.0018819 seconds
+[12:24:51.903] [Info] Root: Loaded StatusEffectDatabase in 0.0148174 seconds
+[12:24:52.234] [Info] Root: Loaded DamageDatabase in 0.330922 seconds
+[12:24:52.346] [Info] Root: Loaded EffectSourceDatabase in 0.112019 seconds
+[12:24:52.358] [Info] Root: Loaded FunctionDatabase in 0.0119895 seconds
+[12:24:52.397] [Info] Root: Loaded TreasureDatabase in 0.0392791 seconds
+[12:24:53.210] [Info] Root: Loaded DungeonDefinitions in 0.812978 seconds
+[12:24:53.211] [Info] Root: Loaded TilesetDatabase in 2.82e-05 seconds
+[12:24:53.223] [Info] Root: Loaded StatisticsDatabase in 0.0124374 seconds
+[12:24:53.231] [Info] Root: Loaded EmoteProcessor in 0.00789122 seconds
+[12:24:53.265] [Info] Root: Loaded SpeciesDatabase in 0.0343662 seconds
+[12:24:53.312] [Info] Root: Loaded QuestTemplateDatabase in 0.0460691 seconds
+[12:24:53.328] [Info] Root: Loaded AiDatabase in 0.0164965 seconds
+[12:24:53.329] [Info] Root: Loaded TechDatabase in 0.000478587 seconds
+[12:24:53.357] [Info] Root: Loaded CodexDatabase in 0.0286289 seconds
+[12:24:53.546] [Info] Root: Loaded BehaviorDatabase in 0.188872 seconds
+[12:24:53.562] [Info] Root: Loaded DanceDatabase in 0.0152849 seconds
+[12:24:53.581] [Info] Root: Loaded SpawnTypeDatabase in 0.0194294 seconds
+[12:24:53.584] [Info] Root: Loaded RadioMessageDatabase in 0.00297219 seconds
+[12:24:54.953] [Info] Root: Loaded ItemDatabase in 3.51316 seconds
+[12:24:55.013] [Info] Root: Loaded CollectionDatabase in 1.429 seconds
+[12:24:55.653] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 256
+[12:24:59.395] [Info] UniverseServer: Acquiring universe lock file
+[12:24:59.411] [Info] UniverseServer: Loading settings
+[12:24:59.430] [Info] UniverseServer: Starting UniverseServer with UUID: d167ea4a6483c7949f9cfe18dae3d900
+[12:24:59.481] [Info] UniverseServer: Logged in player 'Jian' locally
+[12:24:59.481] [Info] UniverseServer: Logged in account '<anonymous>' as player 'Jian' from address local
+[12:24:59.502] [Info] UniverseServer: Loading system world (-94098953, -456004532, -141358315) from disk storage
+[12:24:59.533] [Info] UniverseClient: Joined server as client 1
+[12:24:59.576] [Info] UniverseServer: Reviving player at CelestialWorld:-94098953:-456004532:-141358315:9
+[12:24:59.577] [Info] UniverseServer: Client 'Jian' <1> (local) connected
+[12:24:59.578] [Info] UniverseServer: Loading celestial world -94098953:-456004532:-141358315:9
+[12:24:59.784] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 64
+[12:24:59.784] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 128
+[12:24:59.785] [Info] Protected dungeonIds for world set to (65524)
+[12:24:59.799] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 256
+[12:24:59.799] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 256
+[12:24:59.799] [Info] Setting steam rich presence connection as steam id 76561198360016877
+[12:24:59.801] [Error] Cannot set Steam achievement kill10poptops
+[12:25:00.094] [Info] UniverseServer: Warping player 1 to CelestialWorld:-94098953:-456004532:-141358315:9=701.788.1013
+[12:27:11.065] [Info] Chat: <SAIL> 你获得了一件模组。这些模组可提供一系列不同的功能。使用右键将它们安装在环境保护包上。
+[12:37:48.479] [Info] UniverseServer: Loading client ship world ClientShipWorld:ae8399bb5321b35be0303771dcba4bde
+[12:37:48.528] [Info] Protected dungeonIds for world set to (65524)
+[12:37:48.901] [Info] UniverseServer: Warping player 1 to ClientShipWorld:ae8399bb5321b35be0303771dcba4bde
+[12:37:48.908] [Info] UniverseServer: Stopping idle world CelestialWorld:-94098953:-456004532:-141358315:9
+[12:37:48.918] [Info] Client received world stop packet, leaving: Removed
+[12:41:39.037] [Info] Chat: <SAIL> 跟随你的船员数量已经达到了上限。请先解散队伍中的船员再以其他船员接替。
+[12:41:50.742] [Info] UniverseServer: Creating temporary instance world 'InstanceWorld:penguinmission1:ae8399bb5321b35be0303771dcba4bde:-' with expiry time 0
+[12:41:50.856] [Info] Protected dungeonIds for world set to (65524)
+[12:41:50.857] [Info] Placing dungeon penguinmission1
+[12:41:50.857] [Info] Forcing generation of dungeon penguinmission1
+[12:41:50.875] [Info] Placing dungeon at (0, 1000)
+[12:41:51.637] [Warn] Failed to place dungeon object: brokentank direction: 0 position: (304, 818)
+[12:41:51.638] [Warn] Failed to place dungeon object: tanktrap direction: 0 position: (102, 822)
+[12:41:51.639] [Warn] Failed to place dungeon object: bonespike direction: 0 position: (488, 839)
+[12:41:51.641] [Warn] Failed to place dungeon object: bonespike direction: 0 position: (502, 860)
+[12:41:51.962] [Info] Protected dungeonIds for world set to (0, 65524)
+[12:41:52.728] [Info] UniverseServer: Warping player 1 to InstanceWorld:penguinmission1:ae8399bb5321b35be0303771dcba4bde:-
+[12:41:52.729] [Info] UniverseServer: Stopping idle world ClientShipWorld:ae8399bb5321b35be0303771dcba4bde
+[12:41:52.733] [Info] Client received world stop packet, leaving: Removed
+[12:43:13.232] [Info] Root: Writing runtime configuration to '../storage/starbound.config'
+[12:43:18.234] [Info] Root: Writing runtime configuration to '../storage/starbound.config'
+[12:44:53.704] [Info] UniverseServer: Loading client ship world ClientShipWorld:ae8399bb5321b35be0303771dcba4bde
+[12:44:53.778] [Info] Protected dungeonIds for world set to (65524)
+[12:44:54.004] [Info] UniverseServer: Warping player 1 to ClientShipWorld:ae8399bb5321b35be0303771dcba4bde
+[12:44:54.018] [Info] Client received world stop packet, leaving: Removed
+[12:44:54.025] [Info] UniverseServer: Stopping idle world InstanceWorld:penguinmission1:ae8399bb5321b35be0303771dcba4bde:-
+[12:44:54.177] [Info] UniverseServer: Expiring temporary world InstanceWorld:penguinmission1:ae8399bb5321b35be0303771dcba4bde:-
+[12:45:31.457] [Info] Chat: <SAIL> 你获得了一件环境保护包。这种特殊的仪器可使其用户能够生存在不可居住的环境中。你也可以用增强模块来增强环境保护包。
+[12:47:28.472] [Info] Flying ship for player 1 to -94098953:-456004532:-141358315
+[12:47:45.662] [Info] UniverseServer: Arriving ship for player 1 at -94098953:-456004532:-141358315
+[12:48:03.288] [Info] UniverseServer: Loading persistent unique instance world spacestation_weapons
+[12:48:03.299] [Info] Protected dungeonIds for world set to (0, 65524)
+[12:48:03.362] [Info] UniverseServer: Warping player 1 to InstanceWorld:spacestation_weapons:0aa88b6003c53e054f7f86dd61a040da:1
+[12:48:03.363] [Info] UniverseServer: Stopping idle world ClientShipWorld:ae8399bb5321b35be0303771dcba4bde
+[12:48:03.371] [Info] Client received world stop packet, leaving: Removed
+[12:52:02.032] [Info] UniverseServer: Loading client ship world ClientShipWorld:ae8399bb5321b35be0303771dcba4bde
+[12:52:02.082] [Info] Protected dungeonIds for world set to (65524)
+[12:52:02.332] [Info] UniverseServer: Warping player 1 to ClientShipWorld:ae8399bb5321b35be0303771dcba4bde
+[12:52:02.339] [Info] UniverseServer: Stopping idle world InstanceWorld:spacestation_weapons:0aa88b6003c53e054f7f86dd61a040da:1
+[12:52:02.344] [Info] Client received world stop packet, leaving: Removed
+[12:52:36.343] [Info] Flying ship for player 1 to -94098953:-456004532:-141358315
+[12:52:46.464] [Info] UniverseServer: Arriving ship for player 1 at -94098953:-456004532:-141358315
+[12:53:00.922] [Info] Flying ship for player 1 to -94098953:-456004532:-141358315
+[12:53:04.599] [Info] UniverseServer: Arriving ship for player 1 at -94098953:-456004532:-141358315
+[12:53:24.152] [Info] Flying ship for player 1 to -94098953:-456004532:-141358315:5:1
+[12:53:25.054] [Info] UniverseServer: Creating celestial world -94098953:-456004532:-141358315:5:1
+[12:53:25.236] [Info] Protected dungeonIds for world set to (65524)
+[12:53:25.754] [Info] UniverseServer: Arriving ship for player 1 at -94098953:-456004532:-141358315:5:1
+[12:53:25.754] [Info] UniverseServer: Stopping idle world CelestialWorld:-94098953:-456004532:-141358315:5:1
+[12:53:34.777] [Info] UniverseServer: Loading celestial world -94098953:-456004532:-141358315:5:1
+[12:53:34.810] [Info] Protected dungeonIds for world set to (65524)
+[12:53:34.877] [Info] UniverseServer: Warping player 1 to CelestialWorld:-94098953:-456004532:-141358315:5:1
+[12:53:34.879] [Info] UniverseServer: Stopping idle world ClientShipWorld:ae8399bb5321b35be0303771dcba4bde
+[12:53:34.883] [Info] Client received world stop packet, leaving: Removed
+[12:54:27.491] [Info] Chat: <SAIL> 我检测到“它们”被月球的矿物所吸引着。你背包中的燃料越多它们就对你越感兴趣，我对它们的定义是“极端致命的”。我对你的无所畏惧致以崇高的敬意。
+[12:55:16.562] [Info] Chat: <SAIL> 我检测到“它们”被月球的矿物所吸引着。你背包中的燃料越多它们就对你越感兴趣，我对它们的定义是“极端致命的”。我对你的无所畏惧致以崇高的敬意。
+[12:58:58.801] [Info] UniverseServer: Loading client ship world ClientShipWorld:ae8399bb5321b35be0303771dcba4bde
+[12:58:58.852] [Info] Protected dungeonIds for world set to (65524)
+[12:58:59.102] [Info] UniverseServer: Warping player 1 to ClientShipWorld:ae8399bb5321b35be0303771dcba4bde
+[12:58:59.109] [Info] UniverseServer: Stopping idle world CelestialWorld:-94098953:-456004532:-141358315:5:1
+[12:58:59.117] [Info] Client received world stop packet, leaving: Removed
+[12:59:42.361] [Info] Flying ship for player 1 to -94098953:-456004532:-141358315
+[12:59:50.222] [Info] UniverseServer: Arriving ship for player 1 at -94098953:-456004532:-141358315
+[12:59:57.409] [Info] UniverseServer: Creating temporary instance world 'InstanceWorld:spaceencounter:1fe899628760d988ecefb489518f373d:3' with expiry time 600000
+[12:59:57.515] [Info] Protected dungeonIds for world set to (65524)
+[12:59:57.515] [Info] Placing dungeon spaceencounter
+[12:59:57.515] [Info] Forcing generation of dungeon spaceencounter
+[12:59:57.516] [Info] Placing dungeon at (0, 150)
+[12:59:57.862] [Info] Protected dungeonIds for world set to (0, 65524)
+[12:59:58.616] [Info] UniverseServer: Warping player 1 to InstanceWorld:spaceencounter:1fe899628760d988ecefb489518f373d:3
+[12:59:58.616] [Info] UniverseServer: Stopping idle world ClientShipWorld:ae8399bb5321b35be0303771dcba4bde
+[12:59:58.619] [Info] Client received world stop packet, leaving: Removed
+[13:05:49.006] [Info] UniverseServer: Loading client ship world ClientShipWorld:ae8399bb5321b35be0303771dcba4bde
+[13:05:49.085] [Info] Protected dungeonIds for world set to (65524)
+[13:05:49.319] [Info] UniverseServer: Warping player 1 to ClientShipWorld:ae8399bb5321b35be0303771dcba4bde
+[13:05:49.328] [Info] UniverseServer: Stopping idle world InstanceWorld:spaceencounter:1fe899628760d988ecefb489518f373d:3
+[13:05:49.331] [Info] Client received world stop packet, leaving: Removed
+[13:07:35.098] [Info] Flying ship for player 1 to -94098953:-456004532:-141358315:5
+[13:07:42.912] [Info] UniverseServer: Creating celestial world -94098953:-456004532:-141358315:5
+[13:07:43.189] [Info] Protected dungeonIds for world set to (65524)
+[13:07:43.189] [Info] Placing dungeon naturalcave
+[13:07:43.258] [Info] Generating dungeon naturalcave
+[13:07:43.259] [Info] Placing dungeon at (1250, 1000)
+[13:07:43.433] [Warn] Failed to place dungeon object: metalbarrel1 direction: 0 position: (1351, 935)
+[13:07:43.463] [Warn] Failed to place dungeon object: metalbarrel1 direction: 0 position: (1298, 1000)
+[13:07:43.625] [Info] Placing dungeon gardengate
+[13:07:43.650] [Info] Generating dungeon gardengate
+[13:07:43.651] [Info] Placing dungeon at (3298, 1000)
+[13:07:43.693] [Info] Protected dungeonIds for world set to (1, 65524)
+[13:07:45.167] [Info] UniverseServer: Arriving ship for player 1 at -94098953:-456004532:-141358315:5
+[13:07:45.167] [Info] UniverseServer: Stopping idle world CelestialWorld:-94098953:-456004532:-141358315:5
+[13:07:51.564] [Info] UniverseServer: Loading celestial world -94098953:-456004532:-141358315:5
+[13:07:51.654] [Info] Protected dungeonIds for world set to (1, 65524)
+[13:07:51.764] [Info] UniverseServer: Warping player 1 to CelestialWorld:-94098953:-456004532:-141358315:5
+[13:07:51.767] [Info] Client received world stop packet, leaving: Removed
+[13:07:51.768] [Info] UniverseServer: Stopping idle world ClientShipWorld:ae8399bb5321b35be0303771dcba4bde
+[13:08:37.870] [Info] Skipped event recording for nonexistent entity 149
+[13:09:04.693] [Warn] Failed to place dungeon object: box1 direction: 0 position: (622, 825)
+[13:09:27.813] [Warn] Failed to place dungeon object: box1 direction: 0 position: (777, 793)
+[13:15:49.416] [Info] UniverseServer: Expiring temporary world InstanceWorld:spaceencounter:1fe899628760d988ecefb489518f373d:3
+[13:20:37.850] [Warn] Failed to place dungeon object: box1 direction: 0 position: (609, 289)
+[13:20:37.851] [Warn] Failed to place dungeon object: box1 direction: 0 position: (608, 291)
+[13:20:38.691] [Warn] Failed to place dungeon object: box1 direction: 0 position: (741, 319)
+[13:20:38.691] [Warn] Failed to place dungeon object: box1 direction: 0 position: (740, 321)
+[13:28:54.549] [Info] UniverseServer: Loading client ship world ClientShipWorld:ae8399bb5321b35be0303771dcba4bde
+[13:28:54.596] [Info] Protected dungeonIds for world set to (65524)
+[13:28:54.849] [Info] UniverseServer: Warping player 1 to ClientShipWorld:ae8399bb5321b35be0303771dcba4bde
+[13:28:54.851] [Info] Client received world stop packet, leaving: Removed
+[13:28:54.856] [Info] UniverseServer: Stopping idle world CelestialWorld:-94098953:-456004532:-141358315:5
+[13:29:34.449] [Info] Flying ship for player 1 to -94098953:-456004532:-141358315
+[13:29:38.259] [Info] UniverseServer: Arriving ship for player 1 at -94098953:-456004532:-141358315
+[13:29:45.381] [Info] UniverseServer: Creating temporary instance world 'InstanceWorld:spaceencounter:25171194470303d5e1cf57538fb1e0ad:3' with expiry time 600000
+[13:29:45.462] [Info] Protected dungeonIds for world set to (65524)
+[13:29:45.462] [Info] Placing dungeon spaceencounter
+[13:29:45.462] [Info] Forcing generation of dungeon spaceencounter
+[13:29:45.463] [Info] Placing dungeon at (0, 150)
+[13:29:46.005] [Info] Protected dungeonIds for world set to (0, 65524)
+[13:29:46.973] [Info] UniverseServer: Warping player 1 to InstanceWorld:spaceencounter:25171194470303d5e1cf57538fb1e0ad:3
+[13:29:47.005] [Info] UniverseServer: Stopping idle world ClientShipWorld:ae8399bb5321b35be0303771dcba4bde
+[13:29:47.016] [Info] Client received world stop packet, leaving: Removed
+[13:30:49.993] [Info] UniverseServer: Loading client ship world ClientShipWorld:ae8399bb5321b35be0303771dcba4bde
+[13:30:50.045] [Info] Protected dungeonIds for world set to (65524)
+[13:30:50.293] [Info] UniverseServer: Warping player 1 to ClientShipWorld:ae8399bb5321b35be0303771dcba4bde
+[13:30:50.300] [Info] UniverseServer: Stopping idle world InstanceWorld:spaceencounter:25171194470303d5e1cf57538fb1e0ad:3
+[13:30:50.301] [Info] Client received world stop packet, leaving: Removed
+[13:31:19.346] [Info] UniverseClient: Client disconnecting...
+[13:31:19.446] [Info] Client received world stop packet, leaving: Removed
+[13:31:19.533] [Info] UniverseServer: Client 'Jian' <1> (local) disconnected for reason: 
+[13:31:19.533] [Info] UniverseServer: Stopping idle world ClientShipWorld:ae8399bb5321b35be0303771dcba4bde
+[13:31:19.707] [Info] UniverseServer: Stopping UniverseServer
+[13:31:19.711] [Info] Clearing steam rich presence connection
+[13:31:21.084] [Info] Application: quit requested
+[13:31:21.084] [Info] Application: quitting...
+[13:31:21.084] [Info] Application: shutdown...
+[13:31:21.228] [Info] Root: Shutting down Root
+[13:31:21.351] [Info] Application: Destroying SDL Window
+[13:31:21.793] [Info] Application: stopped gracefully
